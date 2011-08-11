@@ -14,6 +14,8 @@ phase 3
 	verify service complete
 	need some form of acknowledgement for at least some steps
     contact at eta to verify provider arrival
+	monitor location every 60 seconds
+		when member starts moving, prompt for service rendered confirmation
 phase 4
 	Verify billing status and enable payment
 	service request handling
@@ -21,6 +23,26 @@ phase 4
 		status
 		send pics or data
 
+================================================================
+menu:
+Set up
+	Enter phone number or member ID
+	Enter password
+	password retrieval
+		via text to all SMS enabled phone numbers on account
+		via email to address on account
+Find Me
+	pull up map
+	offer to send location to TVC Road Service
+Request Service
+	enter location (current and destination)
+	enter service required
+	initiate phone call
+Active Service Requests
+	show status and properties 
+Older Service Requests
+	show list
+		show status and properties 
 ================================================================
 Legal app
 

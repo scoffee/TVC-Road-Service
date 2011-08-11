@@ -1,34 +1,9 @@
-// namespace
-var A2B = {};
+//initialization
+Ti.include('modules/window_handler.js');
+Ti.include('modules/db.js');
 
-// include helper functions
-Ti.include('utils.js');
-Ti.Geolocation.purpose = "Receive User Location";
+db.initialize();
 
-// vars
-A2B.mapview = null;
-A2B.streetLabel = null
-A2B.cityCountryLabel = null;
-A2B.tableView = null;
-A2B.checkInArray = [];
+//Titanium.UI.setBackgroundColor('#000');
 
-// create window
-A2B.win = Ti.UI.createWindow({
-	backgroundColor:'#fff'
-});
-
-// setup view and check into current location
-A2B.createView();
-A2B.checkIn();
-
-// retrieve all past checkins
-A2B.getCheckIns();
-
-// open window
-A2B.win.open();
-
-
-
-
-
-
+createAppSingleWindow('main_windows/main.js');
