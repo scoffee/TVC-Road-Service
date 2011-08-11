@@ -1,0 +1,59 @@
+phase 1
+	user downloads app
+	geolocation
+	show map to verify location
+	read off long/lat
+phase 2
+	send location data to TVC
+	link via phone number
+	give way for rep to pull
+phase 3
+	announce status/ETA - via text or app notification
+		try to prevent phone calls
+	track arrival time
+	verify service complete
+	need some form of acknowledgement for at least some steps
+    contact at eta to verify provider arrival
+phase 4
+	Verify billing status and enable payment
+	service request handling
+		initiate
+		status
+		send pics or data
+
+================================================================
+Legal app
+
+Status updates
+	via text or app notification
+Information requests from member
+	attorney number
+Submit photos of all documents
+Initiate case creation
+	Initial data entry
+Verify billing status and enable payment
+Enter notes or questions
+Show case history
+
+------
+screen
+
+- po provider search - color coding is broken
+- option to change price directly - estimated cost is not being saved
+- after dispatch, need option to cancel and redispatch a new provider, - include cancellation notes
+- email and fax does not work
+- option to send provider app directly from the service request screen
+- need option to flag for road service review - workflow screen to process
+- need org level options to allow/deny app and text options
+- fax/email PO and provider app via the provider summary screen
+- format provider communication as a PO
+- option to text to driver - gps coordinates or generic notes
+- app would be useful for repeat providers - chicago and dc
+- google maps mashup integrated with provider search
+- new service provider - no spot to enter pricing
+- add more detailed pricing options on service providers - similar to application
+- providers are entered multiple times when they send a zip code
+  - reduce weight of distance
+  - check multple origin point or fixed distance for zip code matches
+- fourth weighting factor: acceptance history weighted by distance from dispatch
+
